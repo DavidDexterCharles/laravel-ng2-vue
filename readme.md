@@ -5,12 +5,13 @@ This branch of this repository holds the backend/ Laravel code of the YouTube se
 
 ##  Usage 
 Clone this repository and run ``composer install`` to download all required dependencies.
-run this command
+
+Run the below command
 
 ```php artisan key:generate```
 
-and the clear config cache using
+and then clear config cache using
 
 ```php artisan config:clear```
 
-will solve this problem
+* The only supported ciphers are AES-128-CBC and AES-256-CBC
