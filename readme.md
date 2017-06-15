@@ -14,4 +14,4 @@ and then clear config cache using
 
 ```php artisan config:clear```
 
-* Solve the followin error : [The only supported ciphers are AES-128-CBC and AES-256-CBC](https://github.com/laravel/framework/issues/9080)
+* The above solves the following error : [The only supported ciphers are AES-128-CBC and AES-256-CBC](https://github.com/laravel/framework/issues/9080)
